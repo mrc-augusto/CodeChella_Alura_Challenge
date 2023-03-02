@@ -1,0 +1,35 @@
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
+
+:root{
+    /* Colors */
+    --white: #fff;
+    --light-blue: #C8DEEF;
+    --dark-blue: #2E7BA2;
+    --orange: #DF9010;
+    --light-yellow: #FBF0DD;
+    --yellow: #FACF9D;
+    --color-paragraph: #444444;
+    /* --summer-gradient:  */
+
+    /* Fonts */
+    --title: 'Calistoga', cursive;
+    --text:  'Raleway', sans-serif;
+    
+    font-size: 62.5%;
+}
+
+/* body{
+    width: 100vw;
+    margin: 0 auto;
+} */
+
+h1, h2, h3{
+    font-family: var(--title);
+}
+
+p, a {
+    font-family: var(--text);
+}
+

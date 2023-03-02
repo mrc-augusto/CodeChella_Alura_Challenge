@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.2rem 2.4rem;
+    background-color: var(--dark-blue);
+}
+
+.banner{
+    width: 360px;
+    height: 270px;
+    background-image: url(/img/Banner.svg);
+}
